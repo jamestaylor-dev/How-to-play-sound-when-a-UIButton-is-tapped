@@ -1,0 +1,343 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7255344B2258DEA900DDFBE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7255344A2258DEA900DDFBE5 /* AppDelegate.swift */; };
+		7255344D2258DEA900DDFBE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7255344C2258DEA900DDFBE5 /* ViewController.swift */; };
+		725534502258DEA900DDFBE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7255344E2258DEA900DDFBE5 /* Main.storyboard */; };
+		725534522258DEAA00DDFBE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725534512258DEAA00DDFBE5 /* Assets.xcassets */; };
+		725534552258DEAA00DDFBE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725534532258DEAA00DDFBE5 /* LaunchScreen.storyboard */; };
+		7255345D2258E10100DDFBE5 /* sound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 7255345C2258E10100DDFBE5 /* sound.wav */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		725534472258DEA900DDFBE5 /* How to play sound when a button is pressed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "How to play sound when a button is pressed.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7255344A2258DEA900DDFBE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7255344C2258DEA900DDFBE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7255344F2258DEA900DDFBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		725534512258DEAA00DDFBE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		725534542258DEAA00DDFBE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		725534562258DEAA00DDFBE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7255345C2258E10100DDFBE5 /* sound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = sound.wav; path = "../../../Documents/Development/iOS Development/Swift/Code Recipes/Play Sound Template/tapBox/Sounds/sound.wav"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		725534442258DEA900DDFBE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7255343E2258DEA900DDFBE5 = {
+			isa = PBXGroup;
+			children = (
+				725534492258DEA900DDFBE5 /* How to play sound when a button is pressed */,
+				725534482258DEA900DDFBE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		725534482258DEA900DDFBE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				725534472258DEA900DDFBE5 /* How to play sound when a button is pressed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		725534492258DEA900DDFBE5 /* How to play sound when a button is pressed */ = {
+			isa = PBXGroup;
+			children = (
+				7255344A2258DEA900DDFBE5 /* AppDelegate.swift */,
+				7255344C2258DEA900DDFBE5 /* ViewController.swift */,
+				7255344E2258DEA900DDFBE5 /* Main.storyboard */,
+				725534512258DEAA00DDFBE5 /* Assets.xcassets */,
+				7255345C2258E10100DDFBE5 /* sound.wav */,
+				725534532258DEAA00DDFBE5 /* LaunchScreen.storyboard */,
+				725534562258DEAA00DDFBE5 /* Info.plist */,
+			);
+			path = "How to play sound when a button is pressed";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		725534462258DEA900DDFBE5 /* How to play sound when a button is pressed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725534592258DEAA00DDFBE5 /* Build configuration list for PBXNativeTarget "How to play sound when a button is pressed" */;
+			buildPhases = (
+				725534432258DEA900DDFBE5 /* Sources */,
+				725534442258DEA900DDFBE5 /* Frameworks */,
+				725534452258DEA900DDFBE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "How to play sound when a button is pressed";
+			productName = "How to play sound when a button is pressed";
+			productReference = 725534472258DEA900DDFBE5 /* How to play sound when a button is pressed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7255343F2258DEA900DDFBE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "James Rea Taylor";
+				TargetAttributes = {
+					725534462258DEA900DDFBE5 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 725534422258DEA900DDFBE5 /* Build configuration list for PBXProject "How to play sound when a button is pressed" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7255343E2258DEA900DDFBE5;
+			productRefGroup = 725534482258DEA900DDFBE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725534462258DEA900DDFBE5 /* How to play sound when a button is pressed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		725534452258DEA900DDFBE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725534552258DEAA00DDFBE5 /* LaunchScreen.storyboard in Resources */,
+				725534522258DEAA00DDFBE5 /* Assets.xcassets in Resources */,
+				725534502258DEA900DDFBE5 /* Main.storyboard in Resources */,
+				7255345D2258E10100DDFBE5 /* sound.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		725534432258DEA900DDFBE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7255344D2258DEA900DDFBE5 /* ViewController.swift in Sources */,
+				7255344B2258DEA900DDFBE5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7255344E2258DEA900DDFBE5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7255344F2258DEA900DDFBE5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		725534532258DEAA00DDFBE5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				725534542258DEAA00DDFBE5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		725534572258DEAA00DDFBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		725534582258DEAA00DDFBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7255345A2258DEAA00DDFBE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "How to play sound when a button is pressed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesreataylor.How-to-play-sound-when-a-button-is-pressed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7255345B2258DEAA00DDFBE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "How to play sound when a button is pressed/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jamesreataylor.How-to-play-sound-when-a-button-is-pressed";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		725534422258DEA900DDFBE5 /* Build configuration list for PBXProject "How to play sound when a button is pressed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725534572258DEAA00DDFBE5 /* Debug */,
+				725534582258DEAA00DDFBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725534592258DEAA00DDFBE5 /* Build configuration list for PBXNativeTarget "How to play sound when a button is pressed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7255345A2258DEAA00DDFBE5 /* Debug */,
+				7255345B2258DEAA00DDFBE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7255343F2258DEA900DDFBE5 /* Project object */;
+}
